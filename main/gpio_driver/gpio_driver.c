@@ -1,7 +1,3 @@
-/*
-   *Description: 
-   *Copyright (c) Danfoss Power Solution
-*/
 #include "gpio_driver/gpio_driver.h"
 
 gpio_dev_t *dev = GPIO_LL_GET_HW(GPIO_PORT_0);  //Neccesarry for all GPIO
