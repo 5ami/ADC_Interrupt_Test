@@ -1,7 +1,3 @@
-/*
-   *Description: 
-   *Copyright (c) Danfoss Power Solution
-*/
 #ifndef _GPIOD_H_
 #define _GPIOD_H_
 #include "soc/gpio_periph.h"
