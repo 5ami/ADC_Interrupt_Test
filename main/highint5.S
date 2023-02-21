@@ -8,7 +8,7 @@
  *    Todo:        Make it possible to call C handler. 
 
 
- *    AUTHOR:      Sami Ouazine  | sami.ouazine@danfoss.com
+ *    AUTHOR:      Sami Ouazine  
 
  *
 
