@@ -13,7 +13,7 @@ the ADC in the continout mode.
 
 ## How to use example
 The example uses Highlevel Interrupts in Assemblæy so make sure to include: 
-target_link_libraries(${COMPONENT_TARGET} "-u ld_include_xt_highint5")
+**target_link_libraries(${COMPONENT_TARGET} "-u ld_include_xt_highint5")**
 in the CMakeList.md  
 
 ## Example folder contents
@@ -27,4 +27,5 @@ in the CMakeList.md
 │   ├──continous_main.c
 └── README.md                  Description about the project
 ```
+  
  
