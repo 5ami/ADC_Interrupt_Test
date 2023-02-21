@@ -20,7 +20,7 @@ void gpio_direction_set(gpio_num_t gpio_num, gpio_mode_t mode){
             dev->enable_w1ts = (0x1 << gpio_num);
         }else {
             dev->enable1_w1ts.data = (0x1 << (gpio_num - 32));
-        }
+        }   
        // esp_rom_gpio_connect_out_signal(gpio_num, SIG_GPIO_OUT_IDX, false, false);  //Not needed 
     }else {
         //gpio_ll_output_disable((hal)->dev, gpio_num)
