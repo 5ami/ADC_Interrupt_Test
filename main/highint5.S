@@ -60,7 +60,7 @@ xt_highint5:
     movi    a14, GPIO_OUT_W1TC_REG
     s32i	a15, a14, 0
 
-    /* Enable PWM interupt */
+    /* Enable EOC interupt */
     movi a14,  0x6004005C
     movi a15,  0x80000000
     memw 
