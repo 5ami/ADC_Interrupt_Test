@@ -1,7 +1,7 @@
 | Supported Targets ESP32-S3 |
 | -------------------------- |
 | ESP-IDF v5.0      |
-| -------------------------- |
+|  |
 # ADC_Interrupt_Project
 
 + This is a simple project to test the ability of the esp32s3 of changing the sample rate of 
