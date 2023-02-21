@@ -1,22 +1,3 @@
-/*******************************************************************
-
- *
-
- *    DESCRIPTION: High_Level Interrupt in Assembly (130ns Latency).
-
-
- *    Todo:        Make it possible to call C handler. 
-
-
- *    AUTHOR:      Sami Ouazine  
-
- *
-
- *    HISTORY:     16 February 2023
-
- *
-
- *******************************************************************/
 #include <xtensa/coreasm.h>
 #include <xtensa/corebits.h>
 #include <xtensa/config/system.h>
